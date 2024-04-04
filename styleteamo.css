@@ -1,0 +1,130 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.container {
+    text-align: left; /* Alineación del texto a la izquierda */
+    background-color: rgba(245, 245, 220, 0.96); /* Fondo blanco */
+    padding: 20px; /* Agrega espacio alrededor del contenido */
+    border-radius: 10px; /* Añade bordes redondeados al contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra ligera */
+    max-width: 800px; /* Ajusta el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+    padding-bottom: 90px; /* Ajusta el espacio inferior para que el mensaje no quede cortado */
+    font-family: Arial, sans-serif; /* Cambia la fuente del texto */
+    font-size: 16px; /* Cambia el tamaño de la fuente */
+    line-height: 1.6; /* Ajusta la altura de línea para mejorar la legibilidad */
+    color: #333333; /* Cambia el color del texto */
+    background-image: url('https://st.depositphotos.com/1000955/1261/i/450/depositphotos_12613072-stock-photo-hand-made-paper.jpg');
+    background-size: cover;
+    filter: grayscale(50%); /* Aquí puedes ajustar el filtro según tus preferencias */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+    font-size: 19px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    
+}
+
+h1 {
+    font-size: 32px;
+    font-family: 'Halant', serif;
+    font-weight: bold;
+}
+
+.exclamacion {
+    font-size: 32px;
+    font-family: 'Halant', serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.brush-script {
+    font-family: "Brush Script MT", cursive;
+    font-weight: 10;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.mensaje-largo {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.fecha {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-family: "Brush Script MT", cursive;
+    margin-left: 100px;
+    margin-right: 110px;
+    margin-top: 100px;
+    color: #000000;
+}
+
+.teamo {
+    font-family: "Brush Script MT", cursive;
+    font-weight: 1;
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corner-img2 {
+    width: 250px;
+    height: 300px;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .brush-script,
+    .mensaje-largo,
+    .fecha {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .teamo {
+        font-size: 30px;
+    }
+
+    .corner-img2 {
+        width: 150px;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .texto {
+        margin-left: 20px;
+    }
+}
+
+
+

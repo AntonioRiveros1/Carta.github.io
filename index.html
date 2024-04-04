@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="cssstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Flowers</title>
+    <link rel="icon" href="images/flor2.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <img src="images/clip.png" alt="Clip" class="corner-img top-left">
+        <img src="images/clip.png" alt="Clip" class="corner-img bottom-right">
+        <h1>Ingresa la clave para descubrir el mensaje oculto</h1>
+        <form id="unlock-form">
+            <label for="user-date">Usuario:</label>
+            <input type="date" id="user-date" name="user-date" required><br>
+            <label for="password-date">Usuario 2:</label>
+            <input type="date" id="password-date" name="password-date" required><br>
+            <br>
+            
+            <!-- Movemos el botón dentro del formulario -->
+            <button type="submit">Desbloquear Mensaje</button>
+        </form>
+        <p class="instructions">Instrucciones: Esto fue un regalo anónimo pero espero que sepas quién soy. Asegúrate de que solo puedas ingresar tú. Para esto, debes colocar tanto en el nombre de usuario como en la contraseña la fecha en que yo nací. (Dale en el año para modificarlo y ponte audifonos)</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
